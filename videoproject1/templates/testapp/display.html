@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    {%for student in students%}
+
+<h2>{{student.name}}</h2>
+<video src="{{student.video.url}}" width="200" height="150" controls>
+
+</video><br><br><br>
+    {%endfor%}
+  </body>
+</html>
